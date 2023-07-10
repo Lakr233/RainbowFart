@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50B2DC8A2A5C59C30052D41E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DC892A5C59C30052D41E /* main.swift */; };
+		50B2DC8E2A5C59C40052D41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B2DC8D2A5C59C40052D41E /* Assets.xcassets */; };
+		50B2DC9C2A5C5FB30052D41E /* AuxiliaryExecute in Frameworks */ = {isa = PBXBuildFile; productRef = 50B2DC9B2A5C5FB30052D41E /* AuxiliaryExecute */; };
+		50B2DC9E2A5C608A0052D41E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DC9D2A5C608A0052D41E /* AppDelegate.swift */; };
+		50B2DCA02A5C60A70052D41E /* InterfereEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DC9F2A5C60A70052D41E /* InterfereEngine.swift */; };
+		50B2DCA42A5C661D0052D41E /* chatglm2-ggml.bin in Resources */ = {isa = PBXBuildFile; fileRef = 50B2DCA32A5C661D0052D41E /* chatglm2-ggml.bin */; };
+		50B2DCA92A5C676A0052D41E /* interfere in Resources */ = {isa = PBXBuildFile; fileRef = 50B2DCA82A5C676A0052D41E /* interfere */; };
+		50B2DCAC2A5C6EE50052D41E /* RainbowFart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DCAB2A5C6EE50052D41E /* RainbowFart.swift */; };
+		50B2DCAF2A5C74020052D41E /* StatusBarPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DCAE2A5C74020052D41E /* StatusBarPopover.swift */; };
+		50B2DCB12A5C78020052D41E /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DCB02A5C78020052D41E /* EventMonitor.swift */; };
+		50B2DCB32A5C79970052D41E /* DanmakuWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DCB22A5C79970052D41E /* DanmakuWindow.swift */; };
+		50B2DCB52A5C79A40052D41E /* DanmakuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DCB42A5C79A40052D41E /* DanmakuView.swift */; };
+		50B2DCD22A5C7BED0052D41E /* DanmakuPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DCD12A5C7BED0052D41E /* DanmakuPublisher.swift */; };
+		50B2DCD42A5C80C80052D41E /* AXMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2DCD32A5C80C80052D41E /* AXMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50B2DC862A5C59C30052D41E /* Rainbow Fart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow Fart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B2DC892A5C59C30052D41E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		50B2DC8D2A5C59C40052D41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50B2DC922A5C59C40052D41E /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		50B2DC9D2A5C608A0052D41E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50B2DC9F2A5C60A70052D41E /* InterfereEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfereEngine.swift; sourceTree = "<group>"; };
+		50B2DCA32A5C661D0052D41E /* chatglm2-ggml.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = "chatglm2-ggml.bin"; path = "BinaryLinker/Linker/chatglm2-ggml.bin"; sourceTree = SOURCE_ROOT; };
+		50B2DCA82A5C676A0052D41E /* interfere */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = interfere; sourceTree = "<group>"; };
+		50B2DCAB2A5C6EE50052D41E /* RainbowFart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowFart.swift; sourceTree = "<group>"; };
+		50B2DCAE2A5C74020052D41E /* StatusBarPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarPopover.swift; sourceTree = "<group>"; };
+		50B2DCB02A5C78020052D41E /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		50B2DCB22A5C79970052D41E /* DanmakuWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanmakuWindow.swift; sourceTree = "<group>"; };
+		50B2DCB42A5C79A40052D41E /* DanmakuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanmakuView.swift; sourceTree = "<group>"; };
+		50B2DCD12A5C7BED0052D41E /* DanmakuPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanmakuPublisher.swift; sourceTree = "<group>"; };
+		50B2DCD32A5C80C80052D41E /* AXMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B2DC832A5C59C30052D41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B2DC9C2A5C5FB30052D41E /* AuxiliaryExecute in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B2DC7D2A5C59C30052D41E = {
+			isa = PBXGroup;
+			children = (
+				50B2DC882A5C59C30052D41E /* Rainbow Fart */,
+				50B2DC872A5C59C30052D41E /* Products */,
+				50B2DC9A2A5C5FB30052D41E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50B2DC872A5C59C30052D41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B2DC862A5C59C30052D41E /* Rainbow Fart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B2DC882A5C59C30052D41E /* Rainbow Fart */ = {
+			isa = PBXGroup;
+			children = (
+				50B2DC922A5C59C40052D41E /* App.entitlements */,
+				50B2DCA22A5C65FB0052D41E /* Application */,
+				50B2DCAA2A5C6EDB0052D41E /* Engine */,
+				50B2DCAD2A5C73F50052D41E /* Interface */,
+				50B2DCA12A5C65F60052D41E /* Resources */,
+			);
+			path = "Rainbow Fart";
+			sourceTree = "<group>";
+		};
+		50B2DC9A2A5C5FB30052D41E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50B2DCA12A5C65F60052D41E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50B2DC8D2A5C59C40052D41E /* Assets.xcassets */,
+				50B2DCA82A5C676A0052D41E /* interfere */,
+				50B2DCA32A5C661D0052D41E /* chatglm2-ggml.bin */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50B2DCA22A5C65FB0052D41E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				50B2DC892A5C59C30052D41E /* main.swift */,
+				50B2DC9D2A5C608A0052D41E /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		50B2DCAA2A5C6EDB0052D41E /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				50B2DCD32A5C80C80052D41E /* AXMonitor.swift */,
+				50B2DCD12A5C7BED0052D41E /* DanmakuPublisher.swift */,
+				50B2DC9F2A5C60A70052D41E /* InterfereEngine.swift */,
+				50B2DCAB2A5C6EE50052D41E /* RainbowFart.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		50B2DCAD2A5C73F50052D41E /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				50B2DCAE2A5C74020052D41E /* StatusBarPopover.swift */,
+				50B2DCB02A5C78020052D41E /* EventMonitor.swift */,
+				50B2DCB22A5C79970052D41E /* DanmakuWindow.swift */,
+				50B2DCB42A5C79A40052D41E /* DanmakuView.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B2DC852A5C59C30052D41E /* Rainbow Fart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B2DC952A5C59C40052D41E /* Build configuration list for PBXNativeTarget "Rainbow Fart" */;
+			buildPhases = (
+				50B2DC822A5C59C30052D41E /* Sources */,
+				50B2DC832A5C59C30052D41E /* Frameworks */,
+				50B2DC842A5C59C30052D41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainbow Fart";
+			packageProductDependencies = (
+				50B2DC9B2A5C5FB30052D41E /* AuxiliaryExecute */,
+			);
+			productName = "Rainbow Fart";
+			productReference = 50B2DC862A5C59C30052D41E /* Rainbow Fart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B2DC7E2A5C59C30052D41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					50B2DC852A5C59C30052D41E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 50B2DC812A5C59C30052D41E /* Build configuration list for PBXProject "Rainbow Fart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50B2DC7D2A5C59C30052D41E;
+			productRefGroup = 50B2DC872A5C59C30052D41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B2DC852A5C59C30052D41E /* Rainbow Fart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B2DC842A5C59C30052D41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B2DC8E2A5C59C40052D41E /* Assets.xcassets in Resources */,
+				50B2DCA92A5C676A0052D41E /* interfere in Resources */,
+				50B2DCA42A5C661D0052D41E /* chatglm2-ggml.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B2DC822A5C59C30052D41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B2DCB52A5C79A40052D41E /* DanmakuView.swift in Sources */,
+				50B2DCD22A5C7BED0052D41E /* DanmakuPublisher.swift in Sources */,
+				50B2DCA02A5C60A70052D41E /* InterfereEngine.swift in Sources */,
+				50B2DC9E2A5C608A0052D41E /* AppDelegate.swift in Sources */,
+				50B2DC8A2A5C59C30052D41E /* main.swift in Sources */,
+				50B2DCD42A5C80C80052D41E /* AXMonitor.swift in Sources */,
+				50B2DCB32A5C79970052D41E /* DanmakuWindow.swift in Sources */,
+				50B2DCB12A5C78020052D41E /* EventMonitor.swift in Sources */,
+				50B2DCAF2A5C74020052D41E /* StatusBarPopover.swift in Sources */,
+				50B2DCAC2A5C6EE50052D41E /* RainbowFart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50B2DC932A5C59C40052D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50B2DC942A5C59C40052D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		50B2DC962A5C59C40052D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rainbow Fart/App.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4Z5DVY94F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "彩虹屁";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 @Lakr233. All Rights Reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wiki.qaq.Rainbow-Fart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		50B2DC972A5C59C40052D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rainbow Fart/App.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4Z5DVY94F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "彩虹屁";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 @Lakr233. All Rights Reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wiki.qaq.Rainbow-Fart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B2DC812A5C59C30052D41E /* Build configuration list for PBXProject "Rainbow Fart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B2DC932A5C59C40052D41E /* Debug */,
+				50B2DC942A5C59C40052D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B2DC952A5C59C40052D41E /* Build configuration list for PBXNativeTarget "Rainbow Fart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B2DC962A5C59C40052D41E /* Debug */,
+				50B2DC972A5C59C40052D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50B2DC9B2A5C5FB30052D41E /* AuxiliaryExecute */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuxiliaryExecute;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 50B2DC7E2A5C59C30052D41E /* Project object */;
+}

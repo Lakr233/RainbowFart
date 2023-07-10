@@ -1,0 +1,3 @@
+[submodule "Foundation/AuxiliaryExecute"]
+	path = Foundation/AuxiliaryExecute
+	url = https://github.com/Lakr233/AuxiliaryExecute.git
